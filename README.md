@@ -6,8 +6,7 @@ This project focuses on detecting fraudulent credit card transactions using mach
 <br>
 We apply Random Forest and XGBoost, two powerful models, along with oversampling techniques (ROSE) to handle class imbalance.<br> The effectiveness of our models is evaluated using confusion matrices, ROC curves, and AUC scores.
 <br>
- ### Objectives
- <br>
+ ### Objectives<br>
 ✔ Preprocess the dataset, handling missing values and imbalanced classes.<br>
 ✔ Balance the dataset using ROSE (Random Over-Sampling Examples).<br>
 ✔ Train and evaluate machine learning models (Random Forest & XGBoost).<br>
@@ -23,7 +22,7 @@ We apply Random Forest and XGBoost, two powerful models, along with oversampling
 <br>
 Before balancing, the dataset was heavily skewed toward non-fraudulent transactions. Using ROSE significantly improved model learning by creating a more balanced dataset.
 <br>
-🏆 Machine Learning Models Used<br>
+Machine Learning Models Used<br>
 1️⃣ Random Forest Classifier<br>
 Ensemble-based model that improves accuracy and reduces overfitting.<br>
 Feature importance ranking helps identify key fraud indicators.<br>
